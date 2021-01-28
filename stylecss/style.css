@@ -1,0 +1,88 @@
+a {
+	text-decoration: none; color: black; }
+body {
+	margin: 10px 0 0 30px;
+}
+/*header style*/
+.htmllogo {
+	display: inline-block;
+	vertical-align: middle;	
+}
+
+.navigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav {
+	display: inline-block;
+	font-family:  "BPG LE Studio 02 Caps", sans-serif;
+	margin-left: 35px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.specnav {
+	color: #EE4036;
+}
+.nav1 {
+	color: #3D58A6;
+}
+/*bannerstyle*/
+.conteinerbanner {
+	margin: 40px 0 0 30px;
+	height: 460px;
+	width: 1170px; 
+}
+/*blogstyle*/
+.blogtitle {
+	font-size: 24px;
+	font-family:  "ALK Rounded Nusx Med", sans-serif;
+	font-weight: bold;
+	margin-top: 110px;
+	margin-bottom: 29px;
+}
+.blog {
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	display: inline-block;
+}
+.blog2 {
+	margin-left: 60px;
+}
+.blogtitle1 {
+	font-size: 20px;
+	color: #3D58A6;
+	font-weight: bold;
+	font-family: "ALK Life", sans-serif;
+}
+.blogphoto {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px;
+}
+.blogtext {
+	display: inline-block;	
+	width: 300px;
+	height: 145px;
+	vertical-align: middle;
+	padding: 20px 0 0 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+/*footericonstyle*/
+.footericon {
+	font-size: 40px;
+	color: #3D58A6;
+	display: inline-block;
+	margin-left: 20px;
+}
+.line {
+	background-color: : #363E97;
+	height: 27px;
+	width: 4px;
+	
+}
+footer {
+	margin-left: 30.6px;
+	margin-top: 30.6px;
+}
