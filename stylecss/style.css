@@ -74,15 +74,19 @@ body {
 	font-size: 40px;
 	color: #3D58A6;
 	display: inline-block;
-	margin-left: 20px;
 }
 .line {
-	background-color: : #363E97;
-	height: 27px;
-	width: 4px;
-	
+	background-color:#3D58A6;
+	display: inline-block;
+	height: 40px;
+	width: 2px;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 footer {
 	margin-left: 30.6px;
-	margin-top: 30.6px;
-}
+	margin-top: 70px;
+
+
+}ს
