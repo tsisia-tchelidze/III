@@ -1,5 +1,6 @@
 a {
 	text-decoration: none; color: black; }
+<script src="https://kit.fontawesome.com/3deec821c6.js" crossorigin="anonymous"></script> 
 body {
 	margin: 10px 0 0 30px;
 }
@@ -31,11 +32,12 @@ body {
 	margin: 40px 0 0 30px;
 	height: 460px;
 	width: 1170px; 
+	display: inline-block;
 }
 /*blogstyle*/
 .blogtitle {
 	font-size: 24px;
-	font-family:  "ALK Rounded Nusx Med", sans-serif;
+	font-family: 'ALK Tommaso';
 	font-weight: bold;
 	margin-top: 110px;
 	margin-bottom: 29px;
@@ -87,6 +89,127 @@ body {
 footer {
 	margin-left: 30.6px;
 	margin-top: 70px;
+}
+/*newpagestyle*/
+article {
+	margin-top: 60px;
+}
+/*datestyle*/
+.dataconteiner {
+	 width: 56px;
+    height: 56px;
+    margin-left: 36px;
+    margin-top: 31.1px;
+    background-color: #3d58a6;
+    color: #ffff;
+    font-size: 40px;
+    padding-top: 8px;
+    padding-left: 4px;
+}
+.data {
+	margin-left: 40px;
+	font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/*pharagraphstyle*/
+.Paragraphconteiner {
+	height: 310px;
+}
+.Paragraphtitle {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+.Paragraphphoto {
+	vertical-align: top;
+}
+.text {
+	display: inline-block;
+	height: 360px;
+	width: 930px;
+	vertical-align: middle;
+	line-height: 15px;
+	margin-left: 50px;
+	text-indent: 30px;
+	line-height: 20px;
+}
+.titleconteiner{
+	margin-top: 5px;
+}
+.Paragraphtext1 {
+	font-family: 'ALK Tommaso';
+	 font-size: 22px;
+	
+}
+.Paragraphtext2 {
+	font-family: 'Yusei Magic', sans-serif;
+}
+.Paragraphtext3 { 
+	font-family: 'FiraSans-BlackItalic';
+}
+/*contactpagestyle*/
+/*mainconteinterstyle*/
+.contactconteiner {
+	width: 1366px;
+	/*height: 560px;*/
+	background-color: #E6E6E6;
+	vertical-align: middle;
+	display: inline-block;
+}
+}
+/*contracinfostyle*/
+.infoconteiner {
+	display: inline-block;
+	width: 275px;
+	height: 101px;
+	padding left: 10px;
+	
+}
 
+.contacttitle {
+	color: #3D58A6;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.contacticon {
+	font-size: 20px;
+	color: #3D58A6;
+	display: inline-block;
+}
 
-}ს
+.addres::before {
+  content:  "მისამართი:";
+  			font-size: 20px;
+  			color: #808080;
+}
+.infotitle {
+	display: inline-block;
+	font-size: 15px;
+}			
+.number::before {
+  content:  "ტელ::";
+  			font-size: 20px;
+  			color: #808080;
+ }
+ 
+ .mail::before {
+  content:  "ელ. ფოსტა::";
+  			font-size: 20px;
+  			color: #808080;
+ }
+/*mapconteinerstyle*/
+.maps {
+	display: inline-block;
+	margin-left: 422px;
+	margin-bottom: 66px;
+	margin-top: 20px;
+}
+.mapsphoto {
+	width: 800px;
+	height: 465px;
+	display: inline-block;
+}
